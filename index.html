@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>$CHAME | Chamelion — Aliens On Earth</title>
-  <meta name="description" content="$CHAME — the chameleon meme coin. Adaptive. Alien. On Earth.">
+  <title>$CHAMELEON | Chamelion · Aliens On Earth</title>
+  <meta name="description" content="$CHAMELEON · the chameleon meme coin. Adaptive. Alien. On Earth.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -360,7 +360,7 @@
       transform: translateY(-2px);
     }
 
-    /* Featured Medium article — forefront */
+    /* Featured Medium article */
     .feature-article {
       padding: 0 0 clamp(40px, 6vw, 56px);
     }
@@ -485,7 +485,7 @@
       transform: translateX(4px);
     }
 
-    /* Founder — Jeff Yan */
+    /* Founder */
     .founder {
       padding: 0 0 clamp(48px, 8vw, 64px);
     }
@@ -661,88 +661,6 @@
       color: var(--text);
     }
 
-    /* Traits meme cards */
-    .traits {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 16px;
-    }
-
-    .trait {
-      padding: 22px;
-      background: linear-gradient(145deg, var(--panel-2), var(--panel));
-      border: 1px solid var(--line);
-      border-radius: 14px;
-      transition: transform 0.25s, border-color 0.25s;
-    }
-
-    .trait:hover {
-      transform: translateY(-4px);
-      border-color: rgba(94, 234, 212, 0.35);
-    }
-
-    .trait__emoji {
-      font-size: 1.75rem;
-      margin-bottom: 10px;
-    }
-
-    .trait__num {
-      font-family: "Space Grotesk", sans-serif;
-      font-size: 0.7rem;
-      font-weight: 700;
-      color: var(--hot);
-      letter-spacing: 0.1em;
-      margin-bottom: 8px;
-    }
-
-    .trait p {
-      font-size: 0.9rem;
-      color: var(--muted);
-      line-height: 1.55;
-    }
-
-    /* How to buy */
-    .steps {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 16px;
-    }
-
-    .step {
-      padding: 24px;
-      text-align: center;
-      background: var(--panel);
-      border: 1px solid var(--line);
-      border-radius: 14px;
-    }
-
-    .step__n {
-      width: 36px;
-      height: 36px;
-      margin: 0 auto 14px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-family: "Space Grotesk", sans-serif;
-      font-weight: 700;
-      background: rgba(94, 234, 212, 0.12);
-      color: var(--accent);
-      border-radius: 50%;
-      border: 1px solid var(--line);
-    }
-
-    .step h4 {
-      font-family: "Space Grotesk", sans-serif;
-      font-size: 1rem;
-      margin-bottom: 8px;
-    }
-
-    .step p {
-      font-size: 0.85rem;
-      color: var(--muted);
-      line-height: 1.5;
-    }
-
     /* Dominance banner */
     .banner {
       margin: 56px 0;
@@ -802,7 +720,7 @@
         border-bottom: 1px solid var(--line);
       }
       .founder__grid { grid-template-columns: 1fr; }
-      .lore, .traits, .steps { grid-template-columns: 1fr; }
+      .lore { grid-template-columns: 1fr; }
       .nav__links a:not(.btn-buy):not(.btn-buy-m) { display: none; }
     }
 
@@ -823,16 +741,16 @@
 
   <div class="marquee" aria-hidden="true">
     <div class="marquee__track">
-      <span><strong>$CHAME</strong> · aliens on earth</span>
+      <span><strong>$CHAMELEON</strong> · aliens on earth</span>
       <span>adaptive · aliens on earth</span>
       <span>they built in silence · the world noticed late</span>
-      <span><strong>buy $CHAME</strong> · don't fade the chameleon</span>
+      <span><strong>buy $CHAMELEON</strong> · don't fade the chameleon</span>
       <span>jeff yan was right · chameleons are aliens</span>
       <span><strong>read the medium piece</strong> · hyperliquid founder lore</span>
-      <span><strong>$CHAME</strong> · aliens on earth</span>
+      <span><strong>$CHAMELEON</strong> · aliens on earth</span>
       <span>adaptive · aliens on earth</span>
       <span>they built in silence · the world noticed late</span>
-      <span><strong>buy $CHAME</strong> · don't fade the chameleon</span>
+      <span><strong>buy $CHAMELEON</strong> · don't fade the chameleon</span>
       <span>jeff yan was right · chameleons are aliens</span>
     </div>
   </div>
@@ -841,15 +759,13 @@
     <nav class="nav">
       <a class="brand" href="#top">
         <img src="./assets/chamelion-logo.png" alt="Chamelion">
-        <span class="brand__ticker"><em>$</em>CHAME</span>
+        <span class="brand__ticker"><em>$</em>CHAMELEON</span>
       </a>
       <div class="nav__links">
         <a href="#article">Article</a>
         <a href="#founder">Founder</a>
         <a href="#lore">Lore</a>
-        <a href="#traits">Traits</a>
-        <a href="#buy">Buy</a>
-        <a class="btn-buy" href="#buy">Buy $CHAME</a>
+        <a class="btn-buy" href="#top">Buy $CHAMELEON</a>
       </div>
     </nav>
   </header>
@@ -858,16 +774,16 @@
     <section class="hero wrap" id="top">
       <div class="reveal">
         <p class="hero__badge">Live on chain soon</p>
-        <img class="hero__logo" src="./assets/chamelion-logo.png" alt="$CHAME Chamelion">
+        <img class="hero__logo" src="./assets/chamelion-logo.png" alt="$CHAMELEON Chamelion">
         <h1>
           <span class="grad">Aliens On Earth</span> 🦎
         </h1>
         <p class="hero__sub">
-          Jeff Yan loves chameleons. Not for blending in — because they're literally aliens.
-          $CHAME is the meme. Adapt or get left behind.
+          Jeff Yan loves chameleons. Not for blending in, because they're literally aliens.
+          $CHAMELEON is the meme. Adapt or get left behind.
         </p>
         <div class="hero__cta">
-          <a class="btn-lg btn-lg--buy" href="#buy">Buy $CHAME</a>
+          <a class="btn-lg btn-lg--buy" href="#top">Buy $CHAMELEON</a>
           <a class="btn-lg btn-lg--ghost" href="#lore">Read the lore</a>
         </div>
         <div class="ca-box" id="caBox">
@@ -876,8 +792,8 @@
           <button type="button" id="copyCa">Copy</button>
         </div>
         <div class="socials">
-          <a href="https://x.com/ChameleonOnHype" target="_blank" rel="noopener noreferrer" title="X — @ChameleonOnHype">𝕏</a>
-          <a href="#buy" title="Chart / DEX">DEX</a>
+          <a href="https://x.com/ChameleonOnHype" target="_blank" rel="noopener noreferrer" title="X · @ChameleonOnHype">𝕏</a>
+          <a href="#top" title="Chart / DEX">DEX</a>
         </div>
       </div>
     </section>
@@ -902,7 +818,7 @@
             Uncovering Hyperliquid Founder Jeff Yan: The 10-Person Team Quietly Building a Crypto Empire
           </h2>
           <p class="article-card__excerpt">
-            Jeff Yan has a fascination with chameleons — not a metaphor for blending in. His Twitter is
+            Jeff Yan has a fascination with chameleons, not a metaphor for blending in. His Twitter is
             <strong>@chameleon_jeff</strong>. Eyes that move independently.
             A tongue faster than you can react.
           </p>
@@ -924,8 +840,8 @@
           <h2>Jeff Yan</h2>
           <p class="founder__role">Founder of Hyperliquid</p>
           <p class="founder__bio">
-            The mind behind Hyperliquid — and the chameleon obsession that inspired $CHAME.
-            Built in silence. Adapted in public. The neon lizard on his shoulder isn't decoration — it's the whole thesis.
+            The mind behind Hyperliquid and the chameleon obsession that inspired $CHAMELEON.
+            Built in silence. Adapted in public. The neon lizard on his shoulder isn't decoration. It's the whole thesis.
           </p>
           <a
             class="founder__link"
@@ -938,8 +854,6 @@
     </section>
 
     <section class="section wrap" id="lore">
-      <h2 class="section__title reveal">The lore 🛸</h2>
-      <p class="section__sub reveal">Why Jeff Yan — and why the chameleon wins</p>
       <div class="lore">
         <div class="lore__card reveal">
           <h3>Not a metaphor</h3>
@@ -951,7 +865,7 @@
             "They're kind of like aliens on Earth."
           </p>
           <p>
-            They built the most dominant trading platform in crypto —
+            They built the most dominant trading platform in crypto,
             and by the time the world noticed, the aliens had already won.
           </p>
         </div>
@@ -961,27 +875,7 @@
       </div>
     </section>
 
-    <section class="section wrap" id="traits">
-      <h2 class="section__title reveal">Chameleon traits</h2>
-      <p class="section__sub reveal">Your favourite alpha.</p>
-      <ul class="traits">
-        <li class="trait reveal">
-          <div class="trait__emoji">🌍</div>
-          <div class="trait__num">01</div>
-          <p>Adaptive to every environment — markets, chains, narratives.</p>
-        </li>
-        <li class="trait reveal">
-          <div class="trait__emoji">👀</div>
-          <div class="trait__num">02</div>
-          <p>Eyes move independently. 360° vision. See everything before CT does.</p>
-        </li>
-        <li class="trait reveal">
-          <div class="trait__emoji">👅</div>
-          <div class="trait__num">03</div>
-          <p>Projectile tongue. Snipe first. Ask later.</p>
-        </li>
-      </ul>
-
+    <section class="wrap">
       <div class="banner reveal">
         <h2>Silent dominance. Loud results.</h2>
         <p>
@@ -991,33 +885,11 @@
       </div>
     </section>
 
-    <section class="section wrap" id="buy">
-      <h2 class="section__title reveal">How to buy $CHAME</h2>
-      <p class="section__sub reveal">Three steps. One mission. Don't fade the lizard.</p>
-      <div class="steps">
-        <article class="step reveal">
-          <div class="step__n">1</div>
-          <h4>Get a wallet</h4>
-          <p>Phantom, Solflare, or whatever you degen with. Load SOL.</p>
-        </article>
-        <article class="step reveal">
-          <div class="step__n">2</div>
-          <h4>Paste the CA</h4>
-          <p>Copy contract from above. Double-check every character. No excuses.</p>
-        </article>
-        <article class="step reveal">
-          <div class="step__n">3</div>
-          <h4>Swap for $CHAME</h4>
-          <p>Jupiter, Raydium, your route. Slap the buy. Welcome to the habitat.</p>
-        </article>
-      </div>
-    </section>
-
     <section class="final-cta wrap">
       <div class="reveal">
         <h2>Built to adapt.<br>Built to <span class="grad" style="display:inline;background:linear-gradient(90deg,var(--accent),var(--accent-2));-webkit-background-clip:text;background-clip:text;color:transparent;">win</span>.</h2>
         <p>The next cycle rewards the most adaptive. Not the loudest.</p>
-        <a class="btn-lg btn-lg--buy" href="#buy">Ape $CHAME</a>
+        <a class="btn-lg btn-lg--buy" href="#top">Ape $CHAMELEON</a>
       </div>
     </section>
   </main>
